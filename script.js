@@ -40,19 +40,19 @@ function countBmi(){
 
   if(bmi<18.5){
     result = 'Underweight';
-    img = '/asset/underweight.jpeg';
+    img = 'asset/underweight.jpeg';
      }else if(18.5<=bmi&&bmi<=24.9){
     result = 'Healthy';
-    img = '/asset/healthy.jpg';
+    img = 'asset/healthy.jpg';
      }else if(25<=bmi&&bmi<=29.9){
     result = 'Overweight';
-    img = '/asset/overweight.jpg';
+    img = 'asset/overweight.jpg';
      }else if(30<=bmi&&bmi<=34.9){
     result = 'Obese';
-    img = '/asset/obese.png';
+    img = 'asset/obese.png';
      }else if(35<=bmi){
     result = 'Extremely obese';
-    img = '/asset/extremely obese.jpeg';
+    img = 'asset/extremely obese.jpeg';
      }
 
      
